@@ -1,0 +1,4 @@
+<div class="answerContainer" ng-repeat="data in facts">
+	<h3>{{ data.name }} is a <span ng-repeat="type in data.types">{{ type }}</span></h3>
+	<p ng-bind-html="data.desc"></p>
+</div>
